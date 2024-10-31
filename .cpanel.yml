@@ -1,0 +1,5 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/azle/public_html/test-frontend
+ - /bin/cp -r public/* $DEPLOYPATH
